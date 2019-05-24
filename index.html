@@ -4,15 +4,19 @@
 	<title>Usando Grid</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="header">
 		<div class="row text-center">
-			<div class="columns medium-4 small-12">Logo</div>
-			<div class="columns medium-4 small-12">Search</div>
-			<div class="columns medium-4 small-12">User Area</div>
+			<div class="columns medium-6 small-12 header-image">
+				<img src="images/logo.svg">
+			</div>
+			<div class="columns small-12 medium-6 header-search">
+				<input type="text" name=""><img width="35" src="images/search.png">
+			</div>
 		</div>
 	</div>
 	<div class="body">
@@ -74,22 +78,22 @@
 		<div class="row">
 			<div class="columns small-centered text-center small-12">
 				<div class="follow-text">Siga-nos</div>
-				<span class="follow-facebook">
-					<a target="_blank" href="https://www.facebook.com">
-						<img width="35" src="images/face.png">
-					</a>
-				</span>
-				<span class="follow-instagram">
-					<a target="_blank" href="https://www.instagram.com">
-						<img width="35" src="images/insta.png">
-					</a>
-				</span>
-				<span class="follow-twitter">
-					<a target="_blank" href="https://www.twitter.com">
-						<img width="35" src="images/twitter.png">
-					</a>
-				</span>
-				<div>Mateus © 2019</div>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="columns small-4">
+				<a target="_blank" href="https://www.facebook.com"><img width="35px" src="images/face.png"></a>
+			</div>
+			<div class="columns small-4">
+				<a target="_blank" href="https://www.instagram.com"><img width="35px" src="images/insta.png"></a>
+			</div>
+			<div class="columns small-4">
+				<a target="_blank" href="https://www.twitter.com"><img width="35px" src="images/twitter.png"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns small-centered text-center small-12 top-space">
+				Mateus © 2019
 			</div>
 		</div>
 	</div>

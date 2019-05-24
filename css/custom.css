@@ -1,22 +1,26 @@
-html, body {
-  height: 100%;
+.header-image {
+  height: 75px;
 }
 
-.header {
-  height: 120px;
-  background-color: lightgray;
+.header-image img {
+  max-height: 90px;
 }
 
-.body {
-  min-height: calc(100% - 240px);
+.header-search input {
+  width: calc(100% - 50px);
+  padding: 10px;
+  letter-spacing: 0.03em;
+  border-radius: 3px;
+  border: 1px solid var(--secondary-color);
 }
 
-.footer {
-  height: 120px;
-  background-color: lightgray;
+.header-search img {
+  padding: 5px;
+  cursor: pointer;
 }
 
-.text-center {
-	text-align: center;
+@media screen and (min-width: 40em) {
+  .header-search {
+    margin-top: 40px;
+  }
 }
-
